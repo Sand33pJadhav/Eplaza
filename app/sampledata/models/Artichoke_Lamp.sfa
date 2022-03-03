@@ -1,0 +1,69 @@
+{
+  materials: [
+    {
+      name: 'Aluminium',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.46999999999999997,
+                        0.56000000000000005,
+                        0.60999999999999999,
+                        1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.218218,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'Lamp_Bulb',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.80389999999999995,
+            0.81179999999999997,
+            0.58819999999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: 0.5,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/Artichoke_Lamp.obj',
+    name: 'Artichoke_Lamp',
+    recenter: 'root',
+    scale: 0.020573999999999999,
+  },
+  version: '0.54:2',
+}

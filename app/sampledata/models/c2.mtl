@@ -1,0 +1,15 @@
+newmtl mat25
+  Ka 1.00 0.65 0.67
+  Kd 0.92 0.95 0.94
+  Ks 1 1 1
+  illum 9
+  Ns 300
+  d 0.4
+  Ni 1.5
+
+newmtl mat2
+  Kd 0.40 0.23 0.72
+
+newmtl mat4
+  Kd 0.00 0.74 0.83
+

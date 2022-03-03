@@ -1,0 +1,53 @@
+{
+  materials: [
+    {
+      name: 'console_table',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.58819999999999995,
+            0.58819999999999995,
+            0.58819999999999995,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.408248,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/table.obj',
+    name: 'table',
+    recenter: 'root',
+    scale: 0.066405000000000006,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/normal_Normal_Bump.tga',
+      name: 'normal_Normal_Bump',
+      params: {
+        usage_type: 'Data',
+      },
+      pipeline_name: 'normal_Normal_Bump.tga',
+    },
+  ],
+  version: '0.54:2',
+}

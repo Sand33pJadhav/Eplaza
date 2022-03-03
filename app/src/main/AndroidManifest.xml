@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eplaza">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!--
+ This tag indicates that this application requires ARCore. This results in the application
+        only being visible in the Google Play Store on devices that support ARCore.
+    -->
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SceneformActivity2"></activity>
+        <activity android:name=".Sceneform_table2_activity" />
+        <activity android:name=".Sceneform_chandelier2_activity" />
+        <activity android:name=".Sceneform_chair2_activity" />
+        <activity android:name=".EplazaPay" />
+        <activity android:name=".Cart" />
+        <activity android:name=".MyOrders" />
+        <activity android:name=".MyProfile" />
+        <activity
+            android:name=".Sceneform_chandelier_activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_sceneform_chandelier_activity"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".Sceneform_table_activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_sceneform_table_activity"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".Sceneform_chair_activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_sceneform_chair_activity"
+            android:theme="@style/FullscreenTheme" />
+        <activity android:name=".table" />
+        <activity android:name=".chandelier" />
+        <activity android:name=".sofa" />
+        <activity android:name=".chairs" />
+        <activity android:name=".ProductDetails" />
+        <activity android:name=".SceneformActivity" />
+
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="required" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgotPassword"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signup"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.zoftino.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_list" />
+        </provider>
+    </application>
+
+</manifest>

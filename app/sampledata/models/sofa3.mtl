@@ -1,0 +1,19 @@
+# File produced by AccuTrans 3D
+
+newmtl Colorado_S
+  Ns 112.76
+  d 1.0
+  illum 2
+  Kd 0.6118 0.3922 0.2431
+  Ka 0.6118 0.3922 0.2431
+  Ks 0.898 0.898 0.898
+  map_Kd E:\BOIS-~45.jpg
+
+newmtl Colorado_S_1
+  Ns 39.1
+  d 1.0
+  illum 2
+  Kd 0.8078 0.5922 0.3098
+  Ka 0.8078 0.5922 0.3098
+  Ks 0.898 0.898 0.898
+  map_Kd E:\LEATHE~8.jpg

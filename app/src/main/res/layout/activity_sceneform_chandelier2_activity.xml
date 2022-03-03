@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".Sceneform_chandelier2_activity">
+
+    <fragment
+        android:id="@+id/ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--<HorizontalScrollView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content">-->
+    <!--<ImageView-->
+    <!--android:id="@+id/tablem"-->
+    <!--android:src="@drawable/table2"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/chairm"-->
+    <!--android:src="@drawable/chair1"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_height="100dp" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/sofam"-->
+    <!--android:src="@drawable/sofa3"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp" />-->
+    <!--<ImageView-->
+    <!--android:id="@+id/chandelierm"-->
+    <!--android:src="@drawable/c2"-->
+    <!--android:clickable="true"-->
+    <!--android:layout_width="100dp"-->
+    <!--android:layout_height="100dp" />-->
+    <!--</LinearLayout>-->
+    <!--</HorizontalScrollView>-->
+
+
+
+</FrameLayout>

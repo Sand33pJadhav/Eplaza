@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "251878843602",
+    "firebase_url": "https://eplaza-8d8f5.firebaseio.com",
+    "project_id": "eplaza-8d8f5",
+    "storage_bucket": "eplaza-8d8f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251878843602:android:874865e1e0805679",
+        "android_client_info": {
+          "package_name": "com.example.eplaza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251878843602-lqhab2hn48vijb7pgjfamjqek49clhg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDX1MaCGr6zBEj1O9X6LlLN-boDUzz5UMI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251878843602-lqhab2hn48vijb7pgjfamjqek49clhg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

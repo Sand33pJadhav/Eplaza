@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Eplaza</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">281692656050098</string>
+    <string name="fb_login_protocol_scheme">fb281692656050098</string>
+
+    <string name="title_activity_sceneform_chair_activity">Sceneform_chair_activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_sceneform_table_activity">Sceneform_table_activity</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+
+    <string name="title_activity_sceneform_chandelier_activity">Sceneform_chandelier_activity
+    </string>
+    <string name="this_feature_will_come_soon">This feature will come soon...</string>
+
+</resources>

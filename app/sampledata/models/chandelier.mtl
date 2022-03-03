@@ -1,0 +1,145 @@
+
+newmtl 0.ReflectiveMaterial
+Kd  01 01 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+map_Kd yellowsteel.png
+
+
+
+
+newmtl 1.BaseMaterial
+Kd  01 0.44316796 00
+Ks  0.2 0.2 0.2
+Ka  00 00 00
+d  01
+Ns  00
+illum 2
+
+
+
+
+newmtl 2.ReflectiveMaterial
+Kd  01 0.5 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 3.ReflectiveMaterial
+Kd  01 0.44313716 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 4.ReflectiveMaterial
+Kd  01 0.43921556 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 5.ReflectiveMaterial
+Kd  01 0.4980389 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 6.ReflectiveMaterial
+Kd  01 0.43529396 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 7.ReflectiveMaterial
+Kd  01 01 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 8.ReflectiveMaterial
+Kd  01 0.49411764 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  01
+Ns  925
+illum 2
+
+
+
+
+newmtl 9.BaseMaterial
+Kd  01 01 01
+Ks  0.2 0.2 0.2
+Ka  00 00 00
+d  01
+Ns  00
+illum 2
+map_Kd yellowsteel.png
+
+
+
+
+newmtl 10.ReflectiveTransparentMaterial
+Kd  01 01 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  0.33333002
+Ns  925
+illum 2
+
+
+
+
+newmtl 11.ReflectiveTransparentMaterial
+Kd  0.12156855 00 01
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  0.33333002
+Ns  925
+illum 2
+
+
+
+
+newmtl 12.ReflectiveTransparentMaterial
+Kd  01 00 00
+Ks  0.8 0.8 0.8
+Ka  00 00 00
+d  0.33333002
+Ns  925
+illum 2
+
+
+
